@@ -12,6 +12,10 @@ build:
     - source: "(postcss|tailwind)\\.config\\.js"
       target: 'css'
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 module:
   hugo_version:
     min: "0.147.8"
