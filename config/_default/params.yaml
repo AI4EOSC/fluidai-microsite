@@ -1,0 +1,24 @@
+title: "FLUID-AI"
+description: "FAIR Liquidity Unifying Interoperable Data and AI"
+images: 
+  - "images/home/hero/hero.png"
+
+logo: "images/shared/logo.png"
+
+favicons:
+  themeColor: "#FFFFFF"
+  backgroundColor: "#FFFFFF"
+  faviconColor: "#000000"
+
+contact:
+  - "aloga@ifca.es"
+  # - "207.555.0119"
+
+social:
+  dribbble: "#"
+  instagram: "#"
+  facebook: "#"
+  twitter: "#"
+
+copyright: "© 2026 FLUID-AI Consortium Members"
+

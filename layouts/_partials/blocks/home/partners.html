@@ -1,0 +1,12 @@
+<section id="partners" class="clients relative py-32 overflow-hidden">
+  <div class="container mx-auto px-4 ">
+    <h1 class="text-2xl font-medium leading-relaxed text-center xl:max-w-1/2 mx-auto mb-16">{{ .title }}</h1>
+        <div class="flex flex-col xl:flex-row items-center justify-around flex-wrap gap-16">
+          {{ range .items}}
+            <div class="h-16 flex items-center justify-center">
+              {{ partial "utilities/image" (dict "src" .image "alt" .name "class" "max-h-full w-auto object-contain")}}
+            </div>
+          {{ end }}
+        </div>
+  </div>
+</section>

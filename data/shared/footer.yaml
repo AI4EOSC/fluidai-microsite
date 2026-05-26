@@ -1,0 +1,30 @@
+enable: true
+
+contact:
+  title: "Contact"
+  items:
+    - label: "Project coordinator: "
+      link: ""
+
+    - label: "Álvaro López García (IFCA, CSIC-UC). "
+      link: "mailto:aloga[at]ifca[dot]es"
+
+social:
+  - title: "GitHub"
+    icon: "fa-brands fa-github"
+    link: "https://github.com/ai4eosc"
+  - title: "Cordis"
+    icon: "fa-solid fa-circle-info"
+    link: "https://cordis.europa.eu/project/id/101292610"
+  # - title: "Twitter"
+  #   icon: "fa-brands fa-twitter"
+  #   link: "#"
+  # - title: "Instagram"
+  #   icon: "fa-brands fa-instagram"
+  #   link: "#"
+  # - title: "LinkedIn"
+  #   icon: "fa-brands fa-linkedin"
+  #   link: "#"
+
+
+copyright: "The project FLUID-AI (FAIR Liquidity Unifying Interoperable Data and AI) has received funding from the European Union's Horizon Europe framework programme, under grant agreement number 101292610."

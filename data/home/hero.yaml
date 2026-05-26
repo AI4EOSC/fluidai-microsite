@@ -1,0 +1,51 @@
+enable: true
+
+title: "FAIR Liquidity Unifying Interoperable Data and AI"
+text: "A new approach to address the lack of interoperability between data, AI/ML models and solutions within the EOSC. We introduce the concept of Data and Models Liquidity, building on and extending the FAIR principles to address the unique demands of AI-ready data and models."
+# FLUID-AI identifies and addresses 3 major gaps within the EOSC ecosystem. First, we establish a collaborative
+# Competence Centre (CC) to provide coordinated support, training, and resources, ensuring researchers and operators
+# are equipped with the skills needed to leverage AI/ML tools effectively. Secondly, we promote unified data and models
+# integration, implementing semantical and technical interoperability to enable effortless reuse and combination across
+# platforms and scientific disciplines. Thirdly, we deliver accessible and intuitive platforms, reducing technical complexity
+# so researchers can focus on scientific discover.
+# The project is organized in 3 different action pillars corresponding to the identified gaps. Together with 8 real-world use
+# cases from representative Research Infrastructures would allow us to demonstrate the FLUID-AI impact, validating the
+# project’s solutions, ensuring they are scalable, reproducible, and aligned with real-world research needs.
+# By promoting cross-disciplinary collaboration, standardization, and open science principles, FLUID-AI aims to
+# transform the EOSC into a dynamic, AI-ready ecosystem. The project outcomes include the novel Data and Models
+# Liquidity concept and framework, innovative tools and platforms, comprehensive guidelines, and a blueprint for
+# trustworthy AI-ready repositories. All together will empower researchers to leverage the full potential of AI-driven
+# scientific discovery.
+
+# ODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and website builders measuring dozens of completed projects. We build and develop mobile applications for several top platforms, including Android  & IOS."
+
+buttons:
+  - label: "Contact Us"
+    link: "mailto:aloga@ifca.es"
+
+  # - label: "View More"
+  #   link: ""
+
+image: "images/home/hero/hero.png"
+
+items:
+  - icon: "fas fa-calendar"
+    color: "#4628A4"
+    title: "3 years"
+    text: "Oct 2026 - Sep 2029"
+
+  - icon: "fas fa-building-columns"
+    color: "#5FC300"
+    title: "28 partners"
+    text: "12 countries"
+
+  - icon: "fas fa-people-arrows"
+    color: "#00329B"
+    title: "EOSC collaboration"
+    text: "Extending AI4EOSC"
+
+  - icon: "fas fa-users"
+    color: "#BB3800"
+    title: "8 use cases"
+    text: "EU Research Infrastructures"
+

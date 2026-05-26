@@ -1,0 +1,17 @@
+enable: true
+
+title: "Collaborations"
+
+items:
+  - name: "AI4EOSC"
+    image: "images/home/clients/ai4eosc.png"
+
+  - name: "iMagine"
+    image: "images/home/clients/imagine.png"
+
+  - name: "AI4Life"
+    image: "images/home/clients/ai4life.png"
+
+  - name: "EOSC-ARENA"
+    image: "images/home/clients/eosc-arena.png"
+

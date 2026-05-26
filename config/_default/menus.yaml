@@ -1,0 +1,46 @@
+main:
+  - name: "Home"
+    url: "/"
+    weight: 1
+
+  # - name: "About"
+  #   url: "#about"
+  #   weight: 2
+
+  - name: "Consortium"
+    url: "/#partners"
+    weight: 3
+
+  - name: "Working Pillars"
+    url: "/#highlights"
+    weight: 4
+
+  - name: "Collaborations"
+    url: "/#clients"
+    weight: 5
+
+buttons:
+  - name: "Contact Us"
+    url: "/contact"
+    weight: 5
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+
+  - name: "About"
+    url: "#about"
+    weight: 2
+
+  - name: "Consortium"
+    url: "#consortium"
+    weight: 3
+
+  - name: "AI4EOSC collaboration"
+    url: "https://ai4eosc.eu"
+    weight: 4
+
+  - name: "Contact Us"
+    url: "/contact"
+    weight: 5

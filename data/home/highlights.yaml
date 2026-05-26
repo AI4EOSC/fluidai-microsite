@@ -1,0 +1,22 @@
+enable: true
+
+title: "Working pillars"
+
+items:
+  - title: "EOSC AI/ML Competence Center"
+    text: "Coordinated support, training, and resources, ensuring researchers and operators are equipped with the skills needed to leverage AI/ML tools effectively."
+    # button:
+    #   label: "View More"
+    #   link: "#"
+
+  - title: "Unified data and models integration"
+    text: "Implementing semantical and technical interoperability to enable effortless reuse and combination across platforms and scientific disciplines."
+    # button:
+    #   label: "View More"
+    #   link: "#"
+
+  - title: "Accessible and intuitive platforms"
+    text: "Extending AI4EOSC, reducing technical complexity so researchers can focus on scientific discover."
+    # button:
+    #   label: "View More"
+    #   link: "#"
