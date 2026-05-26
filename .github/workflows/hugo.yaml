@@ -65,9 +65,17 @@ jobs:
           echo "Node.js: $(node --version)"
       - name: Install Node.js dependencies
         run: |
+          # 1. Install your project dependencies
           [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
-          echo "${GITHUB_WORKSPACE}/node_modules/.bin" >> "${GITHUB_PATH}"
-
+          
+          # 2. Force-link the local Tailwind CLI binary to your custom local path
+          if [ -f "./node_modules/.bin/tailwindcss" ]; then
+            ln -sf "$(pwd)/node_modules/.bin/tailwindcss" "${HOME}/.local/tailwindcss"
+            echo "${HOME}/.local" >> "${GITHUB_PATH}"
+          else
+            echo "Error: tailwindcss binary not found in node_modules/.bin/"
+            exit 1
+          fi
       - name: Verify installations
         run: |
           echo "Dart Sass: $(sass --version)"
