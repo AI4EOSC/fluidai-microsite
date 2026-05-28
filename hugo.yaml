@@ -1,6 +1,8 @@
 theme: "github.com/writeonlycode/hugo-agency-web"
 languageCode: "en-us"
 
+baseurl: "https://fluid.ai4eosc.eu/"
+
 build:
   buildStats:
     enable: true
